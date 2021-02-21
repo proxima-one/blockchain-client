@@ -1,0 +1,26 @@
+{
+  "name": "general-blockchain-client",
+  "version": "0.0.1",
+  "description": "A generalized blockchain client that allows for event listening, smart contract calls, block listening, and filtering as a wrapper for a variety of different blockchains.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/proxima-one/Blockchain-Client.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/proxima-one/Blockchain-Client/issues"
+  },
+  "homepage": "https://github.com/proxima-one/Blockchain-Client#readme",
+  "dependencies": {
+    "fs-extra": "^9.0.1",
+    "web3": "^1.3.1"
+  }
+}

@@ -61,6 +61,24 @@ Blockchain wrappers can be created and tested using the blockchain client reposi
 
 ### Blockchain Interface
 
+```javascript
+class BlockchainClient {
+
+  ...
+  syncEvents() {}
+  syncBlocks() {}
+  syncFunctions(){}
+  syncTransactions(){}
+  
+  subscribeEvents() {}
+  subscribeBlocks() {}
+  subscribeFunctions(){}
+  subscribeTransactions(){}
+
+}
+
+```
+
 #### Blockchain Listener
 - blocks/events
 - blockchain info
